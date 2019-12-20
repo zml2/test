@@ -1,6 +1,6 @@
 <template>
   <div class="dashboard-container">
-    <div class="dashboard-text">name: {{ name }}</div>
+    <!-- <div class="dashboard-text">name: {{ name }}</div>
     <div class="mainDiv">
       <h2>数据资源</h2>
       <ul>
@@ -12,7 +12,7 @@
 
       </div>
     </div>
-    <svg-icon icon-class="user"></svg-icon>
+    <svg-icon icon-class="user"></svg-icon> -->
     <typeMenu :titList='titList'></typeMenu>
   </div>
 </template>
