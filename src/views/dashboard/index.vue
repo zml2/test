@@ -1,7 +1,7 @@
 <template>
   <div class="dashboard-container">
-    <!-- <div class="dashboard-text">name: {{ name }}</div> -->
-    <!-- <div class="mainDiv">
+    <div class="dashboard-text">name: {{ name }}</div>
+    <div class="mainDiv">
       <h2>数据资源</h2>
       <ul>
         <li>原始数据数量：1234个</li>
@@ -11,8 +11,8 @@
       <div class="viewDiv">
 
       </div>
-    </div> -->
-    <!-- <svg-icon icon-class="user"></svg-icon> -->
+    </div>
+    <svg-icon icon-class="user"></svg-icon>
     <typeMenu :titList='titList'></typeMenu>
   </div>
 </template>
