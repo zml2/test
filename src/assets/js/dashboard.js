@@ -1,0 +1,41 @@
+const data = {
+  titList:[
+    {
+      title:'数据资源',
+      oldTit:'原始数据数量',
+      ApiTit:'API数据数量',
+      resTit:'资源申请量',
+      oldDate:'1234个',
+      ApiDate:'1234个',
+      resource:'235个'
+    },
+    {
+      title:'组件资源',
+      oldTit:'组件数量',
+      ApiTit:'申请人数',
+      resTit:'异常使用量',
+      oldDate:'1234个',
+      ApiDate:'23456人',
+      resource:'235个'
+    },
+    {
+      title:'开发者社区',
+      oldTit:'项目数量',
+      ApiTit:'参与人数',
+      resTit:'日活跃数量',
+      oldDate:'1234个',
+      ApiDate:'23456人',
+      resource:'235个'
+    },
+    {
+      title:'实验室数量',
+      oldTit:'实验室数量',
+      ApiTit:'日活跃量',
+      resTit:'平均资源大小',
+      oldDate:'1234个',
+      ApiDate:'23456人',
+      resource:'235G'
+    }
+  ]
+}
+export default data;
